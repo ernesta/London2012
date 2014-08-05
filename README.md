@@ -23,3 +23,6 @@ A bit of [Bootstrap](http://twitter.github.io/bootstrap/). A lot of [WebGL Globe
 
 + [aurimas.eu](http://aurimas.eu)
 + [@Aurimas](http://twitter.com/aurimas)
+
+## Screenshot
+ ![@#london2012](https://github.com/ernesta/London2012/blob/a7d7623959902de49ca4539bf8d99c10ff68149b/London.png)
