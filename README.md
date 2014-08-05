@@ -23,6 +23,3 @@ A bit of [Bootstrap](http://twitter.github.io/bootstrap/). A lot of [WebGL Globe
 
 + [aurimas.eu](http://aurimas.eu)
 + [@Aurimas](http://twitter.com/aurimas)
-
-## Screenshot
- ![@#london2012](London.png)
