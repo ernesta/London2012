@@ -13,11 +13,16 @@ All the third-party libraries are housed by `libs`. With the project being a cou
 ## Libraries
 A bit of [Bootstrap](http://twitter.github.io/bootstrap/). A lot of [WebGL Globe](https://github.com/dataarts/webgl-globe), [three.js](http://mrdoob.github.io/three.js/) and [tween.js](https://github.com/sole/tween.js/).
 
-## Author
+## Authors
 **Ernesta Orlovaitė**
 
 + [ernes7a.lt](http://ernes7a.lt)
 + [@ernes7a](http://twitter.com/ernes7a)
+
+**Aurimas Račas**
+
++ [aurimas.eu](http://aurimas.eu)
++ [@Aurimas](http://twitter.com/aurimas)
 
 ## Screenshot
  ![@#london2012](London.png)
