@@ -1,4 +1,4 @@
-# [#london2012](http://london2012.opendata.lt)
+# [#london2012](http://london2012.ernes7a.lt)
 
 During the London 2012 games I happened to be doing an internship at Google London. That was definitely a cool coincidence that meant several things:
 + Rent prices skyrocketed
