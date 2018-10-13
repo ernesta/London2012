@@ -1,0 +1,48 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background: #000000 url("../img/loading.gif") center center no-repeat;
+	color: #EEE;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+a, .navbar a.brand {
+	color: #69BD39;
+}
+
+.navbar .nav .set a {
+	color: #B02C79;
+	cursor: pointer;
+}
+
+.navbar .nav .set.active a, .navbar .nav .set.active a:hover {
+	color: #F53DA9;
+}
+
+#foot {
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+	margin-left: 10px;
+	padding: 10px;
+	border-radius: 3px;
+	background-color: rgba(0, 0, 0, 0.8);
+	font-size: 11px;
+}
+
+#foot a {
+	color: #95DE6A;
+}
+
+@media (max-width: 767px) {
+	body {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+}

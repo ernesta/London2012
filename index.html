@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- About -->
+	<title>#london2012</title>
+	<meta name="description" content="An interactive visualization of London 2012 Olympic medals per capita. Just because there is more than one way to see things.">
+	<meta name=keywords content="Ernesta, ernes7a, Aurimas, London, Olympics, #london2012, medals, capita, interactive, visualization" />
+	<meta name="author" content="Ernesta Orlovaitė, Aurimas Račas">
+	
+	<!-- Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://london2012.ernes7a.lt/" />
+	<meta property="og:site_name" content="#london2012" />
+	<meta property="og:title" content="#london2012" />
+	<meta property="og:image" content="http://london2012.ernes7a.lt/London.png" />
+	<meta property="og:description" content="An interactive visualization of London 2012 Olympic medals per capita. Just because there is more than one way to see things." />
+		
+	<!-- Google -->
+	<meta itemprop="name" content="#london2012">
+	<meta itemprop="description" content="An interactive visualization of London 2012 Olympic medals per capita. Just because there is more than one way to see things.">
+	<meta itemprop="image" content="http://london2012.ernes7a.lt/London.png">
+	
+	<!-- Styles -->
+	<link href="libs/Bootstrap/bootstrap.min.css" rel="stylesheet">
+	<link href="libs/Bootstrap/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	
+	<!-- HTML5 shim -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!-- Icons -->
+	<link rel="shortcut icon" href="http://london2012.ernes7a.lt/favicon.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://london2012.ernes7a.lt/img/ico144.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://london2012.ernes7a.lt/img/ico114.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://london2012.ernes7a.lt/img/ico172.png">
+	<link rel="apple-touch-icon-precomposed" href="http://london2012.ernes7a.lt/img/ico57.png">
+	
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-19315846-16']);
+	  _gaq.push(['_setDomainName', 'opendata.lt']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+</head>
+
+
+<body>
+	<img style="display: none" src="http://london2012.ernes7a.lt/London.png" alt="#london2012"/>
+	
+	<!-- Navigation -->
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				
+				<a class="brand" href="http://london2012.ernes7a.lt">#london2012</a>
+				
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li id="medals" class="set"><a>medals</a></li>
+						<li id="population" class="set"><a>medals/capita</a></li>
+						<li id="sunshine" class="set"><a>medals/sunshine</a></li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!-- /Navigation -->
+	
+	<!-- Container -->
+	<div id="container">
+		<div id="globe"></div>
+		
+		<div id="foot">
+		  Put together by <a href="http://twitter.com/ernes7a">@ernes7a</a> and <a href="http://twitter.com/aurimas">@aurimas</a>. Data from <a href="http://www.london2012.com/">London 2012</a>, <a href="http://www.worldbank.org/">World Bank</a>, <a href="http://data.un.org/">UNdata</a>, <a href="http://www.geonames.org/">GeoNames</a> and <a href="http://www.wolframalpha.com/">WolframAlpha</a>. Wouldn't be possible if not for <a href="https://github.com/dataarts/webgl-globe">WebGL Globe</a>, <a href="http://mrdoob.github.com/three.js/">three.js</a>, <a href="https://github.com/sole/tween.js/">tween.js</a>, <a href="http://apify.heroku.com/">APIfy</a>, and <a href="http://getbootstrap.com//">Bootstrap</a>.
+		</div>
+	</div>
+	<!-- /Container -->
+	
+	<!-- JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="libs/Three/ThreeWebGL.js"></script>
+	<script src="libs/Three/ThreeExtras.js"></script>
+	<script src="libs/Three/RequestAnimationFrame.js"></script>
+	<script src="libs/Three/Detector.js"></script>
+	<script src="libs/Tween.js"></script>
+	<script src="libs/Globe.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
